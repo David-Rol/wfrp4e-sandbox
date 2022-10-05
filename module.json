@@ -1,0 +1,78 @@
+{
+			"name": "wfrp4e-sandbox",
+			"title": "Wfrp4e Sandbox",
+			"description": "Sandbox",
+			"author": "DPD",
+			"version": "1.0.0",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+			"packs": [
+		{
+		  "name": "macro-tabla-aventuras",
+		  "label": "Macros tablas de aventuras",
+		  "path": "packs/macro-tabla-aventuras.db",
+		  "entity": "Macro",
+		  "module": "macros",
+		  "system": "wfrp4e"
+		},
+		{
+		  "name": "macro-tabla-creacion-personaje",
+		  "label": "Macros tablas de creación de personajes",
+		  "path": "packs/macro-tabla-creacion-personaje.db",
+		  "entity": "Macro",
+		  "module": "macros",
+		  "system": "wfrp4e"
+		},
+					{
+      					"name": "aventuras",
+      					"label": "Tablas de Aventuras",
+      					"path": "packs/aventuras.db",
+      					"entity": "RollTable"
+						},
+					{
+      					"name": "tablas-de-personaje",
+      					"label": "Tablas de Personaje",
+      					"path": "packs/tablas-de-personaje.db",
+      					"entity": "RollTable"
+						},
+					{
+						"name": "pnjs-sandbox",
+						"label": "PNJs (Sandbox)",
+						"path": "packs/pnjs-sandbox.db",
+						"entity": "Actor"
+						},
+					{
+						"name": "criaturas-sandbox",
+						"label": "Criaturas (Sandbox)",
+						"path": "packs/criaturas-sandbox.db",
+						"entity": "Actor"
+						},
+					{
+      					"name": "planos-de-edificios",
+      					"label": "Planos de Edificios",
+      					"path": "packs/planos-de-edificios.db",
+      					"entity": "JournalEntry"
+						},
+					{
+      					"name": "carreteras-y-caminos-del-imperio",
+      					"label": "Carreteras y caminos del Imperio",
+      					"path": "packs/carreteras-y-caminos-del-imperio.db",
+      					"entity": "JournalEntry"
+						},
+					{
+      					"name": "planos",
+      					"label": "Planos",
+      					"path": "packs/planos.db",
+      					"entity": "Scene"
+						},
+					{
+      					"name": "pubgames",
+      					"label": "Juegos de Bar",
+      					"path": "packs/pubgames.db",
+      					"entity": "JournalEntry"
+						}
+					],
+    "url": "https://github.com/David-Rol/wfrp4e-sandbox",
+    "manifest": "https://raw.githubusercontent.com/David-Rol/wfrp4e-sandbox/main/module.json",
+    "download": "https://github.com/David-Rol/wfrp4e-sandbox/archive/main.zip"
+		  }
